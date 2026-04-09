@@ -110,6 +110,41 @@ python main.py
 streamlit run app.py
 ```
 
+## 7. Screenshots
+
+### Dashboard View
+![Dashboard](screenshots/dashboard-view.png)
+
+### view expenses
+![Dashboard](screenshots/view-expense.png)
+
+### Monthly summary
+![Dashboard](screenshots/monthly-summary.png)
+
+### category breakdown
+![Dashboard](screenshots/category-breakdown.png)
+
+### highest spending category
+![Dashboard](screenshots/highest-spending-category.png)
+
+### show pie chart
+![Dashboard](screenshots/showing-pie-chart.png)
+
+### smart insights
+![Dashboard](screenshots/spending-insights.png)
+
+## 8. Overall logic (In simple way)
+
+- expenses are stored in CSV and converted into objects  
+- category totals are calculated using dictionary-based aggregation  
+- month and year are extracted from date for filtering  
+- filtering is applied consistently across all features:
+  - monthly summary  
+  - category breakdown  
+  - highest spending category  
+  - pie chart  
+- Optional filtering ensures flexibility without losing accuracy  
+
 
 
 
